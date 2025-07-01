@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+
+}
+
+.post {
+    width: 300px;                   /* Adjust width of the post */
+    margin:20px auto;              /* Center the post */
+    padding: 20px;                  /* Space between the content and border */
+    border: 5px solid gray;         /* Light gray border with thickness */
+    border-radius: 10px;            /* Rounded corners */
+    background-color: white;       /* Background color for the post */
+  }
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.post-pic{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.header-left{
+    justify-content: flex-start;
+}
+.header-right{
+    justify-content: right;
+}
+
+.post-actions{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
